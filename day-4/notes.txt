@@ -22,3 +22,6 @@ commands -
 
 
 GitHub - 
+    git branch -M main: it create a new main branch in the repository
+    git remote add origin url: it will connect out local machine to the remote github repository
+    git push -u origin main: changes that are commited will be uploaded to the github repository
