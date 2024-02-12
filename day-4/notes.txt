@@ -4,7 +4,7 @@ Day 4
 Course: CSE Bootcamp 
 
 
-Topic: Git and GitHub
+Topic: Type Casting, Git and GitHub
 
 Git - Version Controlling Tool
 
@@ -25,3 +25,11 @@ GitHub -
     git branch -M main: it create a new main branch in the repository
     git remote add origin url: it will connect out local machine to the remote github repository
     git push -u origin main: changes that are commited will be uploaded to the github repository
+
+
+
+Type Casting - 
+    Converting one dayatype into another is called as type casting
+
+    Implicit type casting - automatically done by java
+    Explicit type Casting - we have to provide what type to change
