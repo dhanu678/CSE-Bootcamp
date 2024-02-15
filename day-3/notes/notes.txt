@@ -4,7 +4,7 @@ Day 3
 Course: CSE Bootcamp 
 
 
-Topic: Data Types, variables and operators
+Topic: Data Types, variables, keywords, identifier and operators
 
 Data Type - Type of data
 
