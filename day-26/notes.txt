@@ -1,0 +1,22 @@
+String is class present in java.lang package
+String is a reference datatype
+String is group of characters
+String is an object
+Internally, String is array of characters
+
+String is immutable in java (you cannot change the content of string)
+String name = "ayush"; // we can't manipulate it 
+
+In how many ways we can initialize a String?
+In two ways -
+    1. Using the literal ways
+        e.g: String name = "Shreya Sakshi";
+    2. Using the new Keyword
+        e.g:   String name = new String("Sakshi");
+
+
+Why String is immutable?
+For security purpose
+
+Why there is a special memory area(String constant pool) for string?
+For memory optimization

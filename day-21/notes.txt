@@ -1,0 +1,24 @@
+JVM architecture
+
+    1. Heap
+    2. Method area or class area
+    3. Stack
+
+    Memory areas - 
+
+        Heap - 
+
+            new keyword
+            Scanner sc = new Scanner();
+            int[] arr = new int[];
+
+        Class Area - 
+
+            methods/function - static
+            variables - static
+
+        Stack - 
+            local variables are stored inside my stack
+
+
+

@@ -1,0 +1,8 @@
+functions/methods - 
+
+we declare methods inside my class and outside the main method
+
+if we dont want anything to be returned then we use void
+
+if we want some value to be returned then we use datatypes
+byte short int long float double char boolean String array custom class

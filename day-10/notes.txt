@@ -1,0 +1,31 @@
+Date: 21 Feb 2024
+Time: 08:30 AM
+Day 10
+Course: CSE Bootcamp 
+
+
+Topic - Switch Case, Programs
+
+
+Switch Case - 
+   - to avoid whole big ladders or if-else statement
+   - when we have to compare just single value
+
+   switch(expression/ value){
+        case 1:
+        case 2:
+        .
+        .
+        .
+        .
+        case n:
+        default:
+   }
+
+
+   Programs - 
+   find sum of first n natural numbers.
+   find sum of first n even numbers,
+   find sum of first n odd numbers
+   prime numbers
+   

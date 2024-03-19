@@ -1,0 +1,18 @@
+Arrays - 
+
+why? ------> to store large amount of same data
+what? ------> it is nothing but a container used to store data
+where?  -----> where we need to store same type of huge data
+how? ------>
+         syntax to define an array 
+         data_type[] name = new data_type[size];
+
+
+// interview question 
+java ArrayDemo2
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 5
+        at ArrayDemo2.main(ArrayDemo2.java:5)
+
+// interview question 
+Exception in thread "main" java.lang.NegativeArraySizeException: -12
+        at ArrayDemo2.main(ArrayDemo2.java:9)

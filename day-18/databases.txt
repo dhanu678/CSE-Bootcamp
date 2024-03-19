@@ -1,0 +1,58 @@
+file structure
+    - retrivel is slow
+    - processing is fast
+
+
+databases
+    - retrival was fast in databases
+    - query language from where we can get the data by writing some commands or query
+
+    types od databases - 
+        1. relational databases
+            where we store data in the form of rows and columns - excel, student
+
+            name    | roll | contact  | address
+            ----------------------------------------
+            ayush   |  20  | 76527654 | Pune
+            atharva |  22  | 99274678 | Satara
+
+        e.q Mysql, Oracle, Postgress SQl
+
+        2. Non relational database (NoSQL)
+            we store data in form of key value pairs
+
+            e.g
+
+            Student1 {
+                name : "Ayush",
+                roll : 20, 
+                contact : 9978657543,
+                address : Pune.
+            }
+
+            Student2{
+                name : "Atharva",
+                roll : 22, 
+                contact : 99786353543,
+                address : Satara.
+            }
+
+        e.g, MongoDB, Redis, etc
+
+
+
+
+    SQL(Structured query language) - language to interact with the database
+
+    Create a table :
+
+    syntax :
+    CREATE TABLE table_name (column_name column_type constraints);
+
+    CREATE TABLE student (name varchar(20), roll integer, contact integer);
+
+
+    INSERT INTO student (name, roll, contact)
+    VALUES ('Ayush', 22, 9588422464);
+
+
