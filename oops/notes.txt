@@ -1,0 +1,57 @@
+OOPS-
+    from today whenever you create a folder, use the naming convenction/rules of the variables.
+
+package -
+    fancy name given to a folder
+    use of making a package - to differendiate between two classes having the same name
+
+    pattern-questions  ----- X
+    patternQuestion -------- right way
+    pattern_question ----------right way
+
+
+classes and objects - 
+    class - 
+
+primitive datatype - 
+    byte - 0
+    short - 0
+    int - 0
+    long - 0
+    float - 0.0
+    double - 0.0
+    boolean - false
+    char - ' ';
+
+Reference/complex datatype
+    array - null
+    string - null
+
+
+Constructor - It is used to assignvalues to our variables
+
+class components - what all things we can write inside our class
+
+variables
+    - instance/ non-static variables    
+    - static variable
+    - local variable
+
+methods/functions
+    - instance/non-static methods
+    - static method
+
+constructor
+    - default
+    - non-parameterized/ zero parameterized
+    - parameterized
+
+blocks
+nested class/inner class
+
+
+
+
+
+
+        Student s1 = new Student("Rohini", 10, 100.76f);

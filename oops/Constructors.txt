@@ -1,0 +1,22 @@
+Constructors - 
+
+Constructor is kind of method but it is used to initialize our instance variable.
+
+Constructor has the same name as of class
+
+Constructor doesn't have any return type
+
+
+
+Types of constructors - 
+
+    - default constructor: Provided by java or the compiler
+    - zero arguments/non-parameterized constructor
+    - paramaterized construtor
+
+
+
+static - common to all
+        we call static members using the class name itself.
+        because it is not bounded to any object.
+        memory is initialized only once

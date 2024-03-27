@@ -1,0 +1,13 @@
+OOPS - OBJECT OREINTED PROGRAMMING
+
+Style or some sort of way to write your programs - 
+- Functional
+- Procedural
+- Object Oriented
+
+Whatever we write in java is part of some Object
+
+
+To represent some real world enetities we use object oriented programming
+class - templeate to design our objects
+object - created by our class which have some physical existance
