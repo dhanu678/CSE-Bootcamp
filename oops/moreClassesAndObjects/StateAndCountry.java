@@ -1,7 +1,7 @@
 package moreClassesAndObjects;
 
 public class StateAndCountry {
-    String state;
+    String state = "Maharashtra";
     String country;
 
     StateAndCountry() {

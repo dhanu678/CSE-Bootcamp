@@ -55,5 +55,6 @@ public class Student {
         Student s1 = new Student("Sakshi", 12, "Satara", 1231231, "Maharashtra", "India");
         s1.printObject();
 
+       
     }
 }

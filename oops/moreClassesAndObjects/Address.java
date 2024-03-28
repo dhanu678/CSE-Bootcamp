@@ -3,7 +3,7 @@ package moreClassesAndObjects;
 public class Address {
     String city;
     int pincode;
-    StateAndCountry sc;
+    StateAndCountry sc = new StateAndCountry();
 
     Address() {
 
@@ -12,9 +12,9 @@ public class Address {
     Address(String city, int pincode, String state, String country) {
         this.city = city;
         this.pincode = pincode;
-        // this.sc.state = state;
-        // this.sc.country = country;
-        this.sc = new StateAndCountry(state, country);
+        this.sc.state = state;
+        this.sc.country = country;
+       // this.sc = new StateAndCountry(state, country);
     }
 
     void printAddress() {
