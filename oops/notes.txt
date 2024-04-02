@@ -47,9 +47,31 @@ constructor
     - parameterized
 
 blocks
+    - instance block
+        - It will get executed as many times as we create the object of that class
+        - object mandatory
+    - static block
+        - It will get executed only once whenever the class is loaded
+        - class loading is mandatory
+
+    order of execution -
+        static block
+        instance block
+        constructor
+
 nested class/inner class
 
 
+OOPS pillars - 
+    encapsulation
+    inheritance
+    polymorphism
+    abstraction
+
+
+encapsulation - 
+technical - making the variables as private and access those varaiables using public getters and setters
+hiding the data, wrapping the data and method together.
 
 
 
