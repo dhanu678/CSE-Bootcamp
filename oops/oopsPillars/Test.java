@@ -9,6 +9,6 @@ public class Test {
         // System.out.println(s1.roll);
         // Student.printObject(s1);
         Student s1 = new Student();
-        Student.printObject(s1);
+        // Student.printObject(s1);
     }
 }

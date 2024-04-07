@@ -63,17 +63,28 @@ nested class/inner class
 
 
 OOPS pillars - 
-    encapsulation
-    inheritance
-    polymorphism
-    abstraction
+    1. encapsulation - done
+    2. inheritance
+    3. polymorphism
+    4. abstraction
 
 
 encapsulation - 
 technical - making the variables as private and access those varaiables using public getters and setters
 hiding the data, wrapping the data and method together.
+For data validation we use encapsulation.
+
+setter/constructor - to set the values of private variables
+
+inheritance - using the properties and methods from the parent class 
+
+types of inheritance - 
+    1. single
+    2. multilevel
+    3. Hierarchical
+    4. Multiple  - not possible in java
+    5. Hybrid    - not possible in java
 
 
 
-
-        Student s1 = new Student("Rohini", 10, 100.76f);
+The first line of every default constructor is super call super();
