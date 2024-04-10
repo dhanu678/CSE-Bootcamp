@@ -11,9 +11,10 @@ package -
 
 
 classes and objects - 
-    class - 
+    class - it is logical entity
+    objects - physical entity/instance of a class
 
-primitive datatype - 
+default value of primitive datatype - 
     byte - 0
     short - 0
     int - 0
@@ -23,12 +24,12 @@ primitive datatype -
     boolean - false
     char - ' ';
 
-Reference/complex datatype
+default value of Reference/complex datatype
     array - null
     string - null
 
 
-Constructor - It is used to assignvalues to our variables
+Constructor - It is used to assignvalues to our instance variables and to instantiate our objects
 
 class components - what all things we can write inside our class
 
@@ -64,8 +65,8 @@ nested class/inner class
 
 OOPS pillars - 
     1. encapsulation - done
-    2. inheritance
-    3. polymorphism
+    2. inheritance - done
+    3. polymorphism - done
     4. abstraction
 
 
@@ -88,3 +89,56 @@ types of inheritance -
 
 
 The first line of every default constructor is super call super();
+
+
+
+
+Polymorphism - 
+
+    poly - many
+    morph - forms
+    one object having multiple forms/behaviour
+
+    Dynamic memory dispatch - HW
+
+    method overloading -function/method hsving same name but different arguments/parameters is called as method overloading.
+                        Is performed always in the same class.
+                        Compile-time Polymorphism - At compile time the program will decide which method to run
+                        Static Polymorphism/Early-binding -  
+                        Also known as - Compile-time Polymorphism, Static Polymorphism, or Early binding
+                        Constructor overloading.
+                        operator overloading - '+'
+
+    method overriding - function having same name, same return type, same number of arguments;
+                        it is done in two different classes.
+                        Child class overrides the methods from the parent class
+                        We cannot perform overriding without inheritance.
+                        It is also called as Runtime polymorphism/Dynamic polymorphism/Late binding.
+
+
+final keyword - 
+    - use it with variable : we cannot change the value of that varaiable. used to create constants
+    - use it with a method : we cannot override the method which is final in subclass (instance, static)
+    - use it with a class : we cannot extend that class which is final
+
+
+Abstraction - 
+    general - hiding functinality and showing you only the essential information
+    technically in java - hide the methods - just to declare the methods 
+
+    TO perform abstraction in java we have to make the class as abstract
+    Inside the abstract class we write abstract methods
+
+    We cannot create an object of abstract class.
+
+    To use that abstract methods we have to extends that class.
+    Once we extrnd the class it is the responsibility of that sub class/child class/derived class to override all the abstract method present inside my abstract class.
+
+    We can create abstract methods only in abstract class.
+
+    Abstract class can have both abstract method as well as concrete method 
+
+    Why do we cannot create a static abstract method?
+
+    Why do we use abstraction?
+
