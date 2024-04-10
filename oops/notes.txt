@@ -142,3 +142,5 @@ Abstraction -
 
     Why do we use abstraction?
 
+    Abstract class do not provide 100% abstraction. Beacuse we write concreate methods also.
+
