@@ -144,3 +144,27 @@ Abstraction -
 
     Abstract class do not provide 100% abstraction. Beacuse we write concreate methods also.
 
+
+Interfaces - 
+    it starts with the keyword 'interface'
+
+    It can contain only abstract methods
+
+    static and final variable
+
+    public and abstract methods
+
+
+The child class will get confused which super to call, wheather from class A or wheather from class B
+
+
+Interface don't have any constructor.
+
+static method.
+
+default method
+
+class extends class
+class implements interface
+interface extends interface
+interface extends class ---------- X
